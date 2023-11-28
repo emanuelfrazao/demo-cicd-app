@@ -1,7 +1,7 @@
 import streamlit as st
 from utils import calculate_bmi
 
-st.title("My first app")
+st.title("BMI app")
 
 st.write("Enter your height in meters")
 height = st.number_input("Height")
