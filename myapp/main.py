@@ -3,7 +3,7 @@ from utils import calculate_bmi
 
 st.title("greatest BMI app")
 
-st.write("Enter your height in meters, please")
+st.write("Enter your height in meters")
 height = st.number_input("Height")
 
 st.write("Enter your weight in kilograms")
